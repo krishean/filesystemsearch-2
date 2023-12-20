@@ -1,5 +1,8 @@
 .DS_Store
 *.o
 *.out
-bin
+obj/
+bin/
 *.sqlite3
+*.zip
+src/sqlite3.h
