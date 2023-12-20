@@ -5,13 +5,12 @@
 //tooling which facilitates the use or operation of such software.
 //
 //  Database.cpp
-//  
+//
 //
 //  Created by Chris on 11/21/23.
 //
 
 #include "Database.hpp"
-
 
 //for posterity:
 //the arguments for the sqlite3_exec callback (and thus the callback in RunStatement) are, according to exactly one person on stackoverflow:

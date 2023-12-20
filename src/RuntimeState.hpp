@@ -5,7 +5,7 @@
 //tooling which facilitates the use or operation of such software.
 //
 //  RuntimeState.hpp
-//  
+//
 //
 //  Created by Chris on 12/12/23.
 //
@@ -13,7 +13,7 @@
 #ifndef RuntimeState_hpp
 #define RuntimeState_hpp
 
-#include <stdio.h>
+#include <cstdio>
 #include "LocalConfig.hpp"
 #include "Constants.hpp"
 #include <string>

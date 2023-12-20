@@ -5,7 +5,7 @@
 //tooling which facilitates the use or operation of such software.
 //
 //  Indexing.cpp
-//  
+//
 //
 //  Created by Chris on 12/12/23.
 //
@@ -17,12 +17,12 @@
 std::vector<Fss_File> Indexing::GetFilesFromDirectory(std::string path){
     std::vector<Fss_File> files;
     try{
-        for(std::filesystem::directory_entry item : std::filesystem::recursive_directory_iterator(path)){
+        for(std::experimental::filesystem::directory_entry item : std::experimental::filesystem::recursive_directory_iterator(path)){
             
             Fss_File newfile;
         }
     }
-    catch(std::filesystem::filesystem_error e){
+    catch(std::experimental::filesystem::filesystem_error e){
         std::cout << "filesystem::filesystem_error thrown, contents: " << e.what() << "\n";
     }
     catch(std::exception e){

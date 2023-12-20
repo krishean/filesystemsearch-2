@@ -5,7 +5,7 @@
 //tooling which facilitates the use or operation of such software.
 //
 //  LockObject.cpp
-//  
+//
 //
 //  Created by Chris on 11/13/23.
 //

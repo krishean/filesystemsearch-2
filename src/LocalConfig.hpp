@@ -5,7 +5,7 @@
 //tooling which facilitates the use or operation of such software.
 //
 //  LocalConfig.hpp
-//  
+//
 //
 //  Created by Chris on 12/12/23.
 //
@@ -13,7 +13,7 @@
 #ifndef LocalConfig_hpp
 #define LocalConfig_hpp
 
-#include <stdio.h>
+#include <cstdio>
 #include <vector>
 #include "VolumeTag.hpp"
 

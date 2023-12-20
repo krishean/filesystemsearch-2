@@ -5,7 +5,7 @@
 //tooling which facilitates the use or operation of such software.
 //
 //  LocalConfig.cpp
-//  
+//
 //
 //  Created by Chris on 12/12/23.
 //

@@ -5,7 +5,7 @@
 //tooling which facilitates the use or operation of such software.
 //
 //  LockObject.hpp
-//  
+//
 //
 //  Created by Chris on 11/13/23.
 //
@@ -13,7 +13,7 @@
 #ifndef LockObject_hpp
 #define LockObject_hpp
 
-#include <stdio.h>
+#include <cstdio>
 #include <string>
 
 class LockObject{

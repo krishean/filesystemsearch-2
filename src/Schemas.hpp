@@ -5,7 +5,7 @@
 //tooling which facilitates the use or operation of such software.
 //
 //  Schemas.hpp
-//  
+//
 //
 //  Created by Chris on 11/26/23.
 //
@@ -24,4 +24,4 @@ public:
     static const Schema schemaTemplate;
 };
 
-#endif /* Schemas_h */
+#endif /* Schemas_hpp */

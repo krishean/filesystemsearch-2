@@ -5,15 +5,15 @@
 //tooling which facilitates the use or operation of such software.
 //
 //  Constants.hpp
-//  
+//
 //
 //  Created by Chris on 11/26/23.
 //
 
-#include <string>
+#ifndef Constants_hpp
+#define Constants_hpp
 
-#ifndef Constants_h
-#define Constants_h
+#include <string>
 
 namespace Constants{
     const std::string lockFileName = "fssLock";
@@ -30,4 +30,4 @@ enum Result{
     GENERIC_SQLITE_FAIL
 };
 
-#endif /* Constants_h */
+#endif /* Constants_hpp */

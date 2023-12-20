@@ -5,7 +5,7 @@
 //tooling which facilitates the use or operation of such software.
 //
 //  Database.hpp
-//  
+//
 //
 //  Created by Chris on 11/21/23.
 //
@@ -13,10 +13,10 @@
 #ifndef Database_hpp
 #define Database_hpp
 
-#include <stdio.h>
+#include <cstdio>
 #include <iostream>
 #include <vector>
-#include "sqlite3.h"
+#include <sqlite3.h>
 #include "DatabaseStructs.hpp"
 #include "Lock.hpp"
 #include "Constants.hpp"
