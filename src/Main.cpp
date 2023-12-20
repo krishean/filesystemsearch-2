@@ -4,14 +4,13 @@
 //new or derived content from or based on the input set, or used to build a data set or training model for any software or
 //tooling which facilitates the use or operation of such software.
 //
-//  boilerplate.cpp
-//  
+//  main.cpp
+//
 //
 //  Created by Chris on 11/13/23.
 //
 
-
-#include <stdio.h>
+#include <cstdio>
 #include <iostream>
 #include <random>
 #include "Lock.hpp"
@@ -19,7 +18,7 @@
 #include "Database.hpp"
 #include "Schemas.hpp"
 #include "Fss_File.hpp"
-#include <filesystem>
+#include <experimental/filesystem>
 #include "Indexing.hpp"
 #include "RuntimeState.hpp"
 
@@ -45,7 +44,7 @@ int callbackTest(void* idk, int columns, char** columnContents, char** columnNam
 }
 
 void workingWithFiles(){
-    std::filesystem::path thisPath = { "." };
+    std::experimental::filesystem::path thisPath = { "." };
     
     std::vector test = Indexing::GetFilesFromDirectory(".");
 }
@@ -86,7 +85,7 @@ void testLock(){
 
 }
 
-int main(){
+int main(int argc, char** argv){
     std::cout << "Let's boil this plate\n";
     RuntimeState state;
     DbPath dbPath = {"", "testdb.sqlite3"};
