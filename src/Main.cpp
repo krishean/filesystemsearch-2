@@ -4,7 +4,7 @@
 //new or derived content from or based on the input set, or used to build a data set or training model for any software or
 //tooling which facilitates the use or operation of such software.
 //
-//  main.cpp
+//  Main.cpp
 //
 //
 //  Created by Chris on 11/13/23.
